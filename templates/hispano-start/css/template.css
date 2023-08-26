@@ -1,0 +1,280 @@
+/* Copyright (c) 2010 :: Benedikt Burhorst for FACT-Werbeagentur.de  */
+
+* {margin:0;padding:0}
+
+/* mac hide \*/
+html,body {height:100%;width:100%;}
+/* end hide */
+
+body {
+        color: #333;
+        font-family: arial, helvetica, sans-serif;
+        text-align:center;
+        background: #004087;
+        min-height:680px; /* for good browsers*/
+        min-width:850px;  /* for good browsers*/
+}
+#outer{
+        height:100%;
+        width:100%;
+        display:table;
+        vertical-align:middle;
+        background: url(../images/bg.jpg) center;
+}
+#container {
+        text-align: center;
+        position:relative;
+        vertical-align:middle;
+        display:table-cell;
+        height: 680px;
+}
+#inner {
+        width: 850px;
+        height: 680px;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+#aussen {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 850px;
+        height: 680px;
+        text-align: left;
+        background: none;
+}
+#top {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: none;
+}
+  #top .logo {
+        position: absolute;
+        top: 50px;
+        left:480px;
+  }
+#bottom {
+        position: absolute;
+        top: 640px;
+        left: 530px;
+        width: 380px;
+        height: 50px;
+}
+  #bottom p {
+        font-size: 13px;
+        color: #333;
+        margin: 5px 0px 0px 0px;
+}
+#main {
+        position: absolute;
+        top: 0px;
+        left: 153px;
+        padding: 0;
+        width: 680px;
+        height: 680px;
+        background: url(../images/main-bg.png) no-repeat;
+}
+  #main h1 { /* blau, oben zentriert */
+        display: none;
+  }
+    #main h2.contentheading {
+        margin: 150px 0px 30px 380px;
+        padding: 0px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        color: #333;
+        text-transform: uppercase;
+  }
+    #main p {
+        margin: 5px 0px 2px 380px;
+        width: 320px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #333;
+  }
+    #main ul {
+        position: relative;
+        width: 330px;
+        margin: 0px 0px 5px 380px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #333;
+  }
+    #main li {
+        margin-left: 21px;
+  }
+  ul.jflanguageselection {
+        position: absolute;
+        top: 610px;
+        left: 130px;
+        margin: 0px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #333;
+        float: left;
+        width: 200px;
+  }
+    ul.jflanguageselection li {
+        float: left;
+        margin: 0px 0px 0px 0px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #333;
+  }
+
+/*  bilder  */
+img {
+         border: none;
+}
+   /* Kontaktformular */
+.kform {
+        position: absolute;
+        left: 550px;
+        top: 60px;
+        vertical-align: top;
+        font-size: 12px;
+        text-align: left;
+        margin: 0px;
+}
+.kform td {
+        font-size: 13px;
+        margin: 0px;
+        padding: 2px 0px 2px 0px;
+        text-align: left;
+        vertical-align: top;
+        color: #fff;
+}
+input, select, textarea {
+        margin: 0 0 0 5px;
+        width: 200px;
+        background-color: #fff;
+        border: 1px solid #646466;
+}
+input#submit {
+        width:72px;
+}
+
+/*** Navigation und Links ***/
+a:link, a.visited {
+        color: #333;
+        text-decoration: none;
+}
+a:hover {
+        color: #333;
+        text-decoration: underline;
+}
+
+/* Navi */
+#navi {
+        position: absolute;
+        left: 0px;
+        top: 112px;
+        width: 250px;
+        padding:0px;
+        background: none;
+}
+ul.menu {
+        position: relative;
+        width: 130px;
+        padding-top: 0px;
+        list-style: none;
+}
+ul.menu li {
+        display: inline;
+        padding: 0;
+        margin: 0;
+}
+ul.menu li a {
+        display: block;
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+        color: #333;
+        background: none;
+        text-decoration: none;
+}
+ul.menu li.item8 { /* Home */
+        position: absolute;
+        top: -71px;
+        width: 294px;
+}
+ul.menu li.item8 a {
+        padding: 0px 0 13px 185px;
+}
+ul.menu li.item8 a:hover, ul.menu li.item8.active a  {
+        width: 294px;
+        background-position: 165px 15px;
+}
+
+ul.menu li.item2 a { /*willkommen*/
+        padding: 0px 0 13px 105px;
+        width: 220px;
+}
+ul.menu li.item2 a:hover, ul.menu li.item2.active a  { /*willkommen*/
+        width: 210px;
+        background-position: 85px 15px;
+}
+ul.menu li.item3 a { /*unternehmen*/
+        padding: 55px 0 13px 75px;
+        width: 190px;
+}
+ul.menu li.item3 a:hover, ul.menu li.item3.active a  { /*unternehmen*/
+        width: 190px;
+        background-position: 58px 69px;
+}
+ul.menu li.item4 a { /*leistungen*/
+        padding: 55px 0 13px 65px;
+        width: 225px;
+}
+ul.menu li.item4 a:hover, ul.menu li.item4.active a  { /*leistungen*/
+        width: 225px;
+        background-position: 45px 70px;
+}
+ul.menu li.item5 a { /*sprachen*/
+        padding: 65px 0 13px 65px;
+        width: 190px;
+}
+ul.menu li.item5 a:hover, ul.menu li.item5.active a  { /*sprachen*/
+        width: 190px;
+        background-position: 45px 81px;
+}
+ul.menu li.item6 a { /*kontakt*/
+        padding: 48px 0 13px 85px;
+        width: 150px;
+}
+ul.menu li.item6 a:hover, ul.menu li.item6.active a  { /*kontakt*/
+        width: 150px;
+        background-position: 65px 63px;
+}
+ul.menu li.item7 a { /*impressum*/
+        padding: 55px 0 13px 100px;
+        width: 210px;
+}
+ul.menu li.item7 a:hover, ul.menu li.item7.active a  { /*impressum*/
+        width: 215px;
+        background-position: 83px 70px;
+}
+ul.menu li a:hover {
+        color: #333;
+        background: url(../images/nav-strich.png) no-repeat;
+}
+ul.menu li.active a { /* links hovered */
+        color: #333;
+        background: url(../images/nav-strich.png) no-repeat;
+}
+
+div.spacer { /* magic tool */
+        float: none;
+        clear: both;
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        padding: 0;
+        font-size: 0px;
+        line-height: 0px;
+}

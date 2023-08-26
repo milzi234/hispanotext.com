@@ -1,0 +1,7 @@
+/* Copyright (c) 2010 :: Benedikt Burhorst for FACT-Werbeagentur.de  */
+ul.menu li a:hover {
+        background: none;
+}
+ul.menu li.active a { /* links hovered */
+        background: none;
+}

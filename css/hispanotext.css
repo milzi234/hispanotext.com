@@ -1,0 +1,71 @@
+body{
+  margin-left : 20%;
+  margin-right : 20%;
+  background : silver;
+}
+
+.hisptitle {
+  text-align : center;
+  font-size : 1.1em;
+  letter-spacing : 3.5em;
+  font-weight : bold;
+}
+
+.hispnavigation {
+  text-align : center; 
+  color: #FFCC00;
+  background : #990000;
+  font-weight : bold;
+  border-top : 2px solid #FFCC00;
+  border-bottom : 2px solid #FFCC00;
+}
+
+.hispbody {
+  text-align : justify;
+  border-left : 2px solid #FFCC00;
+  border-right : 2px solid #FFCC00;
+  padding : 2.0em;
+  background : url(../grafik/hispano2.gif) no-repeat fixed center white;  
+}
+
+.hispfooter {
+  text-align : center;
+}
+
+.hisplink {
+  color: #990000;
+  background : transparent;
+}
+
+img{
+  border                 :             none;
+}
+
+a:link {
+  background             :             transparent;
+  color                  :             #ffcc00;
+  font-size              :             0.9em;
+  font-weight            :             bold;
+  text-decoration        :             none;
+}
+a:visited {
+  background             :             transparent;
+  color                  :             #ffcc00;
+  font-size              :             0.9em;
+  font-weight            :             bold;
+  text-decoration        :             none;
+}
+a:hover {
+  background             :             transparent;
+  color                  :             #ffcc00;
+  font-size              :             0.9em;
+  font-weight            :             bold;
+  text-decoration        :             none;
+}
+a:active {
+  background             :             transparent;
+  color                  :             #ffcc00;
+  font-size              :             0.9em;
+  font-weight            :             bold;
+  text-decoration        :             none;
+}
